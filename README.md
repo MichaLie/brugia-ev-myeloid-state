@@ -1,40 +1,42 @@
-# Brugia EV Myeloid State
+# *Brugia malayi* EV-induced composite myeloid state
 
-This repository is a clean, journal-agnostic reproducibility package for the reconstructed *Brugia malayi* extracellular-vesicle-induced composite myeloid state. It contains the frozen 76-gene signature, derived evidence tables, cached public GEO inputs used for orthogonal reruns, figure assets, and the scripts used to rebuild the main derived outputs.
+This repository contains the data products and analysis code for a reproducibility-first reconstruction of the host transcriptional response to *Brugia malayi* extracellular vesicles. It includes the frozen 76-gene signature, derived evidence tables, orthogonal perturbation outputs, final figure assets, and the scripts used to regenerate the main repository outputs.
 
-## Repository scope
+## Repository layout
 
-- `data/evidence/`: frozen signature tables and derived evidence used across the repository.
-- `data/public_inputs/geo/`: public GEO input files cached locally for reruns.
-- `results/tables/`: derived summary tables.
-- `results/validation/`: orthogonal perturbation outputs derived from public GEO inputs.
-- `results/figures/`: final figure assets and legends.
-- `scripts/`: analysis and figure-building scripts rewritten to run from this repository layout.
-- `docs/`: repository notes, data manifest, and derived-table summaries.
-- `environment/`: lightweight dependency listing.
+- `data/evidence/`
+  Frozen signature tables and supporting derived evidence.
+- `data/public_inputs/geo/`
+  Cached public GEO files used for orthogonal reruns.
+- `results/tables/`
+  Derived summary tables.
+- `results/validation/`
+  Outputs from the orthogonal perturbation analyses.
+- `results/figures/`
+  Final figure assets and figure legends.
+- `scripts/`
+  Analysis and figure-building scripts.
+- `docs/`
+  Data manifest and summary documentation.
+- `environment/`
+  Python dependency listing.
 
-## Intentional exclusions
+## Getting started
 
-- No manuscript draft files.
-- No internal review notes, revision logs, or editorial checklists.
-- No copyrighted source-paper PDFs.
-- No journal-specific submission forms or cover-letter material.
-
-## Quick start
-
-1. Create a Python environment and install `environment/requirements.txt`.
-2. Rebuild orthogonal perturbation outputs as needed with:
+1. Create a Python environment.
+2. Install the dependencies listed in `environment/requirements.txt`.
+3. Rebuild orthogonal perturbation outputs:
    - `python3 scripts/run_gse187403_validation.py`
    - `python3 scripts/run_gse143170_temsirolimus_sensitivity.py`
    - `python3 scripts/run_gse143170_paired_deseq2.py`
-3. Rebuild derived summary tables with:
+4. Rebuild derived summary tables:
    - `python3 scripts/build_manuscript_tables.py`
    - `python3 scripts/build_claim_support_summary.py`
-4. Rebuild figures with:
+5. Rebuild figures:
    - `python3 scripts/build_figures.py`
 
-## Notes
+## Data provenance
 
-- The GEO input files in `data/public_inputs/geo/` are public-source inputs mirrored locally for convenience.
-- Repository result files intentionally use descriptive names rather than journal-specific supplementary-table numbering so the same outputs remain stable across manuscripts and resubmissions.
-- Before an archival DOI release, choose an explicit repository license and archive a tagged release to a DOI-minting service such as Zenodo.
+- The files in `data/public_inputs/geo/` are cached copies of public GEO resources used in the orthogonal reruns.
+- Derived outputs in `results/` are generated from repository inputs using the scripts in `scripts/`.
+- Additional file-level summaries are provided in `docs/public_data_manifest.md` and `docs/derived_table_manifest.md`.
