@@ -1,0 +1,77 @@
+gene,direction,module,resting_concordance_mean,resting_contexts_available,lps_concordance_mean,lps_contexts_available,assignment_rule,assignment_scope
+ANAPC15,down,A_Myeloid_lineage_state,1.0,2,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ARHGAP9,down,A_Myeloid_lineage_state,1.0,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ATP6V0D1,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+CAMK1,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+CD68,down,A_Myeloid_lineage_state,1.0,3,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+CSF3R,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+CTSA,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+DPP7,down,A_Myeloid_lineage_state,0.6666666666666666,3,1.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ECM1,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+FCGRT,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+GBA,down,A_Myeloid_lineage_state,1.0,1,,0,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+GRN,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+HECTD3,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ITGB2,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+LRPAP1,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+NRGN,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PARVG,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PBXIP1,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PINK1,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PLA2G15,down,A_Myeloid_lineage_state,1.0,2,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PLD3,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PTK2B,down,A_Myeloid_lineage_state,1.0,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+RAB37,down,A_Myeloid_lineage_state,1.0,3,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+RAB7B,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+RASGRP2,down,A_Myeloid_lineage_state,1.0,3,1.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+RGL2,down,A_Myeloid_lineage_state,0.6666666666666666,3,1.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+RHOBTB2,down,A_Myeloid_lineage_state,1.0,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+S100A4,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.0,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+S100A6,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+SLC44A2,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+SLC9A3R1,down,A_Myeloid_lineage_state,1.0,1,,0,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+TEX264,down,A_Myeloid_lineage_state,1.0,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+TMC8,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.3333333333333333,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+WDR1,down,A_Myeloid_lineage_state,0.6666666666666666,3,0.6666666666666666,3,down-direction gene with mean resting concordance >= 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ABCA5,up,B_Proliferative_metabolic,0.6666666666666666,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+ATL3,up,B_Proliferative_metabolic,0.3333333333333333,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+EIF3J,up,B_Proliferative_metabolic,0.3333333333333333,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+G3BP1,up,B_Proliferative_metabolic,0.3333333333333333,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+GNPNAT1,up,B_Proliferative_metabolic,0.0,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+HMGB1,up,B_Proliferative_metabolic,0.3333333333333333,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+IMPACT,up,B_Proliferative_metabolic,0.3333333333333333,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+LARS,up,B_Proliferative_metabolic,0.0,1,,0,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+MATR3,up,B_Proliferative_metabolic,0.6666666666666666,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+NCL,up,B_Proliferative_metabolic,0.3333333333333333,3,0.3333333333333333,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+NMD3,up,B_Proliferative_metabolic,0.6666666666666666,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+NOP58,up,B_Proliferative_metabolic,0.0,2,0.3333333333333333,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+SEH1L,up,B_Proliferative_metabolic,0.6666666666666666,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+SLC30A1,up,B_Proliferative_metabolic,1.0,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+SLC7A11,up,B_Proliferative_metabolic,0.6666666666666666,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+SYNCRIP,up,B_Proliferative_metabolic,0.3333333333333333,3,0.6666666666666666,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+THAP12,up,B_Proliferative_metabolic,0.0,2,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+YWHAG,up,B_Proliferative_metabolic,0.0,3,1.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+ZFR,up,B_Proliferative_metabolic,0.0,3,0.0,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+ZNF146,up,B_Proliferative_metabolic,0.0,3,0.3333333333333333,3,all up-direction genes assigned to proliferative/metabolic module,construction_only_all_resting_contexts
+CALCOCO1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+CLN3,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+DGAT1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+GAS7,down,C_Context_sensitive_residual,0.3333333333333333,3,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+GLB1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+GLMP,down,C_Context_sensitive_residual,0.5,2,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+IRAK1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+ITGA7,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+LILRA2,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+LPAR2,down,C_Context_sensitive_residual,0.0,2,1.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+METTL7B,down,C_Context_sensitive_residual,0.0,1,,0,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+MICAL1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+P2RX1,down,C_Context_sensitive_residual,0.0,3,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+PLCXD1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+S100A11,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+SHB,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+SLC37A2,down,C_Context_sensitive_residual,0.0,3,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+STX4,down,C_Context_sensitive_residual,0.3333333333333333,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+TCIRG1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.6666666666666666,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+USF2,down,C_Context_sensitive_residual,0.0,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+VKORC1,down,C_Context_sensitive_residual,0.3333333333333333,3,0.0,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts
+YPEL3,down,C_Context_sensitive_residual,0.0,3,0.3333333333333333,3,down-direction gene with mean resting concordance < 2/3 across all three resting construction contexts,construction_only_all_resting_contexts

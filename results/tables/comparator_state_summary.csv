@@ -1,0 +1,10 @@
+comparator,summary_metric,value,supportive_direction,interpretation
+PDAC,hallmark_vector_rho,0.8738,positive,Strong cross-cohort pathway-level concordance.
+PDAC,marker_vector_rho,-0.1536,weak,Marker-level concordance is weak and should not be mechanistically over-read.
+PDAC,state_geometry_order,GSE155698_task36: dendritic_like > macrophage_like > monocyte_like; GSE111672: dendritic_like > macrophage_like > monocyte_like,dendritic_high,Broad myeloid state geometry is consistent across cohorts.
+Macrophage,core_score_order,M2 > M0 > M1 by mean score,M2_adjacent,"EV state is non-M1 and M2-adjacent, but not reducible to a canonical polarization label."
+Macrophage,MYC_marker_rho,rho=0.7552; p=0.004508; fdr=0.06763,positive,MYC is the strongest positive marker-level correlate.
+Macrophage,MTORC1_hallmark_rho,rho=0.9301; fdr=7.314e-05,positive,Metabolic and growth-associated hallmark structure is the strongest shared layer.
+Macrophage,IL6_JAK_STAT3_hallmark_rho,rho=-0.0210; p=0.9484,null,STAT3-linked inflammatory structure is not a stable organizing feature.
+Macrophage,STAT3_marker_rho,rho=-0.2797; p=0.3786,null,STAT3 expression does not provide a stable marker-level bridge.
+Macrophage,M2_minus_M1_paired_test,mean_delta=0.3140; p=0.125; n=4,positive,Ordering is directionally consistent across donors but limited by n=4.

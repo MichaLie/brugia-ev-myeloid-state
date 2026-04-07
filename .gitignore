@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+*.pyc
+*.pyo
+*.pyd
+
+# Local virtual environments
+.venv/
+venv/
+
+# Generated panel exports can be rebuilt from final figure scripts
+results/figures/panels/main/*
+results/figures/panels/supplementary/*

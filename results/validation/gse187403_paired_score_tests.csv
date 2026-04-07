@@ -1,0 +1,19 @@
+score_name,contrast,contrast_label,n_donors,mean_delta,median_delta,signflip_p
+core_ev_score,lps_vs_media,LPS vs media,6,0.8397437016719195,0.5046643363832237,0.03125
+core_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,0.21118334199629976,0.25373945680473425,0.34375
+core_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,1.050927043668219,1.0033844566537617,0.03125
+down_arm_ev_score,lps_vs_media,LPS vs media,6,0.7996843274313288,0.8187799562400707,0.03125
+down_arm_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,0.5664027143929461,0.5479979082954591,0.03125
+down_arm_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,1.3660870418242748,1.4483128013197288,0.03125
+module_a_ev_score,lps_vs_media,LPS vs media,6,0.9910040009127092,1.0359140815960046,0.03125
+module_a_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,0.5927357010488717,0.5241509636792148,0.03125
+module_a_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,1.5837397019615809,1.6267465795696152,0.03125
+module_b_ev_score,lps_vs_media,LPS vs media,6,0.04005937424059075,-0.13059342011861333,0.90625
+module_b_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,-0.3552193723966462,-0.23477451299826393,0.03125
+module_b_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,-0.3151599981560555,-0.37480429369438517,0.09375
+module_c_ev_score,lps_vs_media,LPS vs media,6,0.5040084684146499,0.4832090352354456,0.03125
+module_c_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,0.5257062804701518,0.5721696324358725,0.03125
+module_c_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,1.0297147488848015,1.027821564735107,0.03125
+up_arm_ev_score,lps_vs_media,LPS vs media,6,0.04005937424059075,-0.13059342011861333,0.90625
+up_arm_ev_score,mtori_lps_vs_lps,AZD2014+LPS vs LPS,6,-0.3552193723966462,-0.23477451299826393,0.03125
+up_arm_ev_score,mtori_lps_vs_media,AZD2014+LPS vs media,6,-0.3151599981560555,-0.37480429369438517,0.09375

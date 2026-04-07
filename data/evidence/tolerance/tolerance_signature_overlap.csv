@@ -1,0 +1,16 @@
+gene,category,role,expected_tolerance_direction,in_frozen_signature,frozen_module,frozen_direction,consistent_with_tolerance
+IRAK1,Negative feedback / signal attenuation,miR-146a target,down,True,C_Context_sensitive_residual,down,YES
+TRAF6,Negative feedback / signal attenuation,miR-146a target,down,False,,,
+IRAK3,Negative feedback / signal attenuation,Negative regulator (IRAK-M),up,False,,,
+TNFAIP3,Negative feedback / signal attenuation,NF-kB inhibitor (A20),up,False,,,
+NFKBIA,Negative feedback / signal attenuation,NF-kB inhibitor (IkBa),up,False,,,
+SOCS1,Negative feedback / signal attenuation,JAK/STAT inhibitor,up,False,,,
+SOCS3,Negative feedback / signal attenuation,JAK/STAT inhibitor,up,False,,,
+CD274,Tolerance surface/secreted markers,"PD-L1, tolerogenic APC marker",up,False,,,
+IDO1,Tolerance surface/secreted markers,Tolerogenic DC marker,up,False,,,
+IL10,Tolerance surface/secreted markers,Anti-inflammatory cytokine,up,False,,,
+PTGS2,Tolerance surface/secreted markers,"COX-2, variable in tolerance",variable,False,,,
+ATF3,Tolerance-associated TFs,Stress/tolerance TF,up,False,,,
+DUSP1,Tolerance-associated TFs,"MKP-1, MAPK phosphatase",up,False,,,
+NR4A1,Tolerance-associated TFs,Orphan nuclear receptor (Nur77),up,False,,,
+NR4A2,Tolerance-associated TFs,Orphan nuclear receptor (Nurr1),up,False,,,

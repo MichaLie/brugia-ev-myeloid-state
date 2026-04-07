@@ -1,0 +1,2 @@
+dataset,contrast,n_pairs,core_mean_case,core_mean_control,core_mean_difference,core_score_p_value,available_up_genes,available_down_genes,up_concordant,down_concordant,total_available_genes,total_concordant_genes,concordance_fraction,direction_empirical_p_value,direction_empirical_null_size,direction_test
+GSE42694,LC_L3_vs_LC_Control,6,84.5232609689702,115.17404990602681,-30.650788937056603,0.21875,18,52,5,25,70,30,0.42857142857142855,0.75,64,exact_paired_sign_flip

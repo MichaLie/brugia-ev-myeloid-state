@@ -1,0 +1,8 @@
+analysis_layer,dataset,contrast,full_signature_concordance,down_or_module_a_concordance,up_or_module_b_concordance,module_b_score_delta,module_b_score_p,note
+tlr_context,GSE147310,TLR7/8 monocytes vs unstimulated,,28/31 (0.903),3/17 (0.176),,,Module A strongly concordant while Module B is discordant under acute innate stimulation.
+tlr_context,GSE147310,TLR4 monocytes vs unstimulated,,22/27 (0.815),3/19 (0.158),,,Module A strongly concordant while Module B is discordant under acute innate stimulation.
+orthogonal_validation,GSE187403,LPS vs media,52/76 (0.684),44/56 (0.786),8/20 (0.400),0.040,0.90625,Primary monocytes; acute catalytic mTOR inhibition is tested only within the LPS setting.
+orthogonal_validation,GSE187403,AZD2014+LPS vs LPS,47/76 (0.618),37/56 (0.661),10/20 (0.500),-0.355,0.03125,Primary monocytes; acute catalytic mTOR inhibition is tested only within the LPS setting.
+orthogonal_validation,GSE187403,AZD2014+LPS vs media,54/76 (0.711),45/56 (0.804),9/20 (0.450),-0.315,0.09375,Primary monocytes; acute catalytic mTOR inhibition is tested only within the LPS setting.
+orthogonal_validation,GSE143170,Temsirolimus vs pH7.3,62/73 (0.849),45/54 (0.833),17/19 (0.895),0.738,0.03125,Paired DESeq2 rerun in differentiating moDCs; acidic pH serves as a negative control.
+orthogonal_validation,GSE143170,Acidic pH vs pH7.3,33/73 (0.452),25/54 (0.463),8/19 (0.421),-0.084,0.31250,Paired DESeq2 rerun in differentiating moDCs; acidic pH serves as a negative control.

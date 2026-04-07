@@ -1,0 +1,18 @@
+Gene,Category,Regulates,Targeted_by_miR100_TargetScan,Targeted_by_miR100_miRDB,Regulatory_Role,Targeted_by_TargetScan_rerun,Targeted_by_miRDB_rerun,Targeted_by_any_rerun
+SPI1,Master TF,Direct TF,False,False,Master TF,False,False,False
+RUNX1,Master TF,Direct TF,False,False,Master TF,False,False,False
+MECOM,Master TF,Direct TF,False,False,Master TF,False,False,False
+FLI1,Master TF,Direct TF,False,False,Master TF,False,False,False
+CLOCK,Master TF,Direct TF,False,False,Master TF,False,False,False
+CEBPA,Upstream Regulator,SPI1,False,False,Regulates SPI1,False,False,False
+EGR1,Upstream Regulator,SPI1,False,False,Regulates SPI1,False,False,False
+ERG,Upstream Regulator,SPI1,False,False,Regulates RUNX1,False,False,False
+ETS1,Upstream Regulator,SPI1,False,False,Regulates RUNX1,False,False,False
+GATA1,Upstream Regulator,RUNX1,False,False,Regulates SPI1/RUNX1,False,False,False
+GATA2,Upstream Regulator,RUNX1,False,False,Regulates SPI1/RUNX1,False,False,False
+GFI1,Upstream Regulator,RUNX1,False,False,Regulates SPI1,False,False,False
+GFI1B,Upstream Regulator,RUNX1,False,False,Regulates RUNX1,False,False,False
+IRF8,Upstream Regulator,RUNX1,False,False,Regulates SPI1,False,False,False
+MYB,Upstream Regulator,Both,False,False,Regulates SPI1/RUNX1,False,False,False
+SCL,Upstream Regulator,Both,False,False,Regulates RUNX1,False,False,False
+TAL1,Upstream Regulator,Both,False,False,Regulates RUNX1,False,False,False

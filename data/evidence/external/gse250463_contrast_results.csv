@@ -1,0 +1,6 @@
+dataset,contrast,case_treatment,control_treatment,n_pairs,core_mean_case,core_mean_control,core_mean_difference,core_score_p_value,available_up_genes,available_down_genes,up_concordant,down_concordant,total_available_genes,total_concordant_genes,concordance_fraction,direction_empirical_p_value,direction_empirical_null_size,direction_test
+GSE250463,Al_CPI_0.1uM_vs_Control,Al-CPI 0.1 uM,Control,6,0.02154746946415879,-0.01370241223312855,0.03524988169728734,0.6875,19,53,8,35,72,43,0.5972222222222222,0.3125,64,exact_paired_sign_flip
+GSE250463,Al_CPI_1uM_vs_Control,Al-CPI 1 uM,Control,6,0.1100876636056481,-0.01370241223312855,0.12379007583877666,0.21875,19,53,7,35,72,42,0.5833333333333334,0.3125,64,exact_paired_sign_flip
+GSE250463,LPS_ABF_vs_LPS,LPS + ABF,LPS,6,0.5722016040685816,0.558365336362849,0.013836267705732541,0.84375,19,53,14,9,72,23,0.3194444444444444,0.90625,64,exact_paired_sign_flip
+GSE250463,LPS_Al_CPI_0.1uM_vs_LPS,LPS + Al-CPI 0.1 uM,LPS,6,0.6829907614191173,0.558365336362849,0.12462542505626828,0.21875,19,53,16,35,72,51,0.7083333333333334,0.21875,64,exact_paired_sign_flip
+GSE250463,LPS_Al_CPI_1uM_vs_LPS,LPS + Al-CPI 1 uM,LPS,6,0.5616092098066033,0.558365336362849,0.0032438734437543193,1.0,19,53,10,25,72,35,0.4861111111111111,0.59375,64,exact_paired_sign_flip
