@@ -1,14 +1,14 @@
 claim_code,claim_area,dataset,summary,odds_ratio,p_value,destination
 tlr78_mono_module_a_vs_b,mechanistic_context,GSE147310,TLR7/8 monocytes: Module A 28/31 (0.903) vs Module B 3/17 (0.176),43.55555555555556,7.351692124324364e-07,main_text
 tlr4_mono_module_a_vs_b,mechanistic_context,GSE147310,TLR4 monocytes: Module A 22/27 (0.815) vs Module B 3/19 (0.158),23.466666666666665,1.1706493099759832e-05,supplement
-gse187403_lps_module_a_vs_b,orthogonal_validation,GSE187403,LPS vs media: Module A 29/34 (0.853) vs Module B 8/20 (0.400),8.7,0.000824708574533516,main_text
-gse187403_mtori_module_b_binomial,orthogonal_validation,GSE187403,AZD2014+LPS vs LPS: Module B 10/20 (0.500),,0.5880985260009766,main_text
-gse187403_mtori_module_b_score_shift,orthogonal_validation,GSE187403,Module B EV-like score delta = -0.355,,0.03125,main_text
-gse143170_tems_module_b_binomial,orthogonal_validation,GSE143170,Temsirolimus vs pH7.3: Module B 17/19 (0.895),,0.0003643035888671,main_text
-gse143170_ph65_module_b_binomial,orthogonal_validation,GSE143170,Acidic pH vs pH7.3: Module B 8/19 (0.421),,0.8203582763671875,supplement
-gse143170_tems_module_b_score_shift,orthogonal_validation,GSE143170,Module B EV-like score delta = 0.738,,0.03125,main_text
-external_no_uniform_support,external_transport,external_multi_cohort,Supportive external contrasts: 0/15,,,main_text
-external_gse360_best_directional,external_transport,GSE360,Macrophage_Brugia5_vs_Baseline: 33/48 (0.688),,0.1666666666666666,supplement
-external_gse250463_best_directional,external_transport,GSE250463,LPS_Al_CPI_0.1uM_vs_LPS: 51/72 (0.708),,0.21875,supplement
-external_gse42694_boundary,external_transport,GSE42694,LC_L3_vs_LC_Control: 30/70 (0.429),,0.75,supplement
-external_context_structure,external_transport,external_multi_cohort,Direct exposure down-up gap = 0.136; LPS-background gap = -0.268,,,supplement
+gse187403_lps_module_a_vs_b,orthogonal_perturbation,GSE187403,LPS vs media: Module A 29/34 (0.853) vs Module B 8/20 (0.400),8.7,0.000824708574533516,main_text
+gse187403_mtori_module_b_binomial,orthogonal_perturbation,GSE187403,AZD2014+LPS vs LPS: Module B 10/20 (0.500),,0.5880985260009766,main_text
+gse187403_mtori_module_b_score_shift,orthogonal_perturbation,GSE187403,Module B EV-like score delta = -0.355,,0.03125,main_text
+gse143170_tems_module_b_binomial,orthogonal_perturbation,GSE143170,Temsirolimus vs pH7.3: Module B 17/19 (0.895),,0.0003643035888671,main_text
+gse143170_ph65_module_b_binomial,orthogonal_perturbation,GSE143170,Acidic pH vs pH7.3: Module B 8/19 (0.421),,0.8203582763671875,supplement
+gse143170_tems_module_b_score_shift,orthogonal_perturbation,GSE143170,Module B EV-like score delta = 0.738,,0.03125,main_text
+external_no_uniform_support,external_projection,external_multi_cohort,Supportive external contrasts: 0/15,,,main_text
+external_gse360_best_directional,external_projection,GSE360,Macrophage_Brugia5_vs_Baseline: 33/48 (0.688),,0.1666666666666666,supplement
+external_gse250463_best_directional,external_projection,GSE250463,LPS_Al_CPI_0.1uM_vs_LPS: 51/72 (0.708),,0.21875,supplement
+external_gse42694_boundary,external_projection,GSE42694,LC_L3_vs_LC_Control: 30/70 (0.429),,0.75,supplement
+external_context_structure,external_projection,external_multi_cohort,Direct exposure down-up gap = 0.136; LPS-background gap = -0.268,,,supplement

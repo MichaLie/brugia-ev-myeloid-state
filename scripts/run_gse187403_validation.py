@@ -436,7 +436,7 @@ def plot_summary(concordance_df: pd.DataFrame, sample_scores: pd.DataFrame, addi
         ax.set_xlabel("")
         ax.set_ylabel("Higher = more EV-like")
 
-    fig.suptitle("GSE187403 orthogonal validation of the EV composite-state model", y=1.02, fontsize=18)
+    fig.suptitle("GSE187403 orthogonal perturbation test of the EV composite-state model", y=1.02, fontsize=18)
     fig.tight_layout()
     fig.savefig(OUT_DIR / "gse187403_validation_summary.png", dpi=300, bbox_inches="tight")
     plt.close(fig)
@@ -471,7 +471,7 @@ def write_summary(
     module_b_mtori = module_b_scores[module_b_scores["contrast"].eq("mtori_lps_vs_lps")].iloc[0]
 
     lines = [
-        "# GSE187403 Orthogonal Validation Summary",
+        "# GSE187403 Orthogonal Perturbation Summary",
         "",
         "## Dataset",
         "- GEO series: GSE187403",
@@ -526,7 +526,7 @@ def write_summary(
         "",
         "## Interpretation",
         (
-            "- This dataset is useful because it supplies the missing mTOR-inhibition side of the manuscript's "
+            "- This dataset is useful because it supplies the missing mTOR-inhibition side of the "
             "two-component model in primary human monocytes. The most important question is not whether it "
             "perfectly reproduces the EV state, but whether LPS and mTOR inhibition contribute different arms."
         ),

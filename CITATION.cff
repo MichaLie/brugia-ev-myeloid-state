@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated publication and the exact repository commit or archived release."
+title: "Brugia malayi EV-induced composite myeloid state reproducibility package"
+version: "0.1.0"
+date-released: "2026-05-15"
+license: "MIT AND CC-BY-4.0"
+authors:
+  - family-names: "Liegertova"
+    given-names: "Michaela"
+    orcid: "https://orcid.org/0000-0003-3858-856X"
+repository-code: "https://github.com/MichaLie/brugia-ev-myeloid-state"
+type: software

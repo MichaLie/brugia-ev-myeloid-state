@@ -1,6 +1,6 @@
-context,n_contrasts,mean_up_fraction,mean_down_fraction,mean_arm_gap_down_minus_up,mean_total_concordance_fraction,n_supportive_contrasts,supportive_contrasts
-Cross-helminth moDC LPS background,3,0.7017543859649122,0.4339622641509433,-0.2677921218139689,0.5046296296296297,0,
-Cross-helminth moDC resting,2,0.3947368421052631,0.660377358490566,0.2656405163853028,0.5902777777777778,0,
-Direct human Brugia exposure,6,0.5303030303030303,0.6666666666666666,0.1363636363636364,0.6354166666666666,0,
-Natural human filarial infection,3,0.4000000000000001,0.5087719298245613,0.1087719298245614,0.4779874213836477,0,
-Same-parasite L3 Langerhans exposure,1,0.2777777777777778,0.4807692307692308,0.202991452991453,0.4285714285714285,0,
+context,n_contrasts,mean_up_fraction,mean_down_fraction,mean_arm_gap_down_minus_up,mean_total_concordance_fraction,n_supportive_contrasts,supportive_contrasts,support_rule
+Cross-helminth moDC LPS background,3,0.7017543859649122,0.4339622641509433,-0.2677921218139689,0.5046296296296297,0,,overall_supportive requires concordance_fraction >= 0.60 and direction_empirical_p_value < 0.05
+Cross-helminth moDC resting,2,0.3947368421052631,0.660377358490566,0.2656405163853028,0.5902777777777778,0,,overall_supportive requires concordance_fraction >= 0.60 and direction_empirical_p_value < 0.05
+Direct human Brugia exposure,6,0.5303030303030303,0.6666666666666666,0.1363636363636364,0.6354166666666666,0,,overall_supportive requires concordance_fraction >= 0.60 and direction_empirical_p_value < 0.05
+Natural human filarial infection,3,0.4000000000000001,0.5087719298245613,0.1087719298245614,0.4779874213836477,0,,overall_supportive requires concordance_fraction >= 0.60 and direction_empirical_p_value < 0.05
+Same-parasite L3 Langerhans exposure,1,0.2777777777777778,0.4807692307692308,0.202991452991453,0.4285714285714285,0,,overall_supportive requires concordance_fraction >= 0.60 and direction_empirical_p_value < 0.05

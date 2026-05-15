@@ -1,0 +1,12 @@
+# Local verification environment
+
+These package versions were used in the local verification rerun performed while preparing the repository package.
+
+gseapy==1.1.11
+matplotlib==3.10.8
+numpy==2.2.6
+pandas==2.3.3
+pydeseq2==0.5.4
+scikit-learn==1.8.0
+scipy==1.16.3
+seaborn==0.13.2

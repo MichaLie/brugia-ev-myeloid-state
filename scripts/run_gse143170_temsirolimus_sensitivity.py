@@ -257,7 +257,7 @@ def main() -> None:
         "",
         "## Interpretation",
         "- Unlike the acute AZD2014-within-LPS monocyte dataset, this moDC differentiation context shows a strong EV-like response under mTORC1 inhibition.",
-        "- This supports the manuscript's caution that the MYC-associated arm is compatible with mTOR-linked control, but context dependent rather than universally reproduced by every mTOR perturbation.",
+        "- This supports the interpretive caution that the MYC-associated arm is compatible with mTOR-linked control, but context dependent rather than universally reproduced by every mTOR perturbation.",
     ]
     (OUT_DIR / "gse143170_temsirolimus_sensitivity_summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 

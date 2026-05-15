@@ -71,6 +71,7 @@ MODULE_COLORS = {
 CONTEXT_COLORS = {
     "tlr_context": BLUE,
     "orthogonal_validation": VERMILLION,
+    "orthogonal_perturbation": VERMILLION,
     "direct_human_brugia_exposure": GREEN,
     "natural_human_filarial_infection": ORANGE,
     "same_parasite_l3_langerhans_exposure": PURPLE,
@@ -584,6 +585,7 @@ def figure2() -> None:
 
 def figure3() -> None:
     panel = read_csv("data/evidence/core/regulator_panel_target_rerun_results.csv")
+    mtor_control = read_csv("data/evidence/core/mir100_mtor_positive_control.csv").iloc[0]
     motif6 = read_csv("data/evidence/core/frozen_signature_6mer_enrichment.csv")
     motif7 = read_csv("data/evidence/core/frozen_signature_7mer_enrichment.csv")
 
@@ -681,7 +683,7 @@ def figure3() -> None:
     ax4.text(
         0.0,
         0.62,
-        "MTOR remains a predicted hsa-miR-100-5p target\nin both preserved rerun resources.",
+        f"MTOR remains a predicted {mtor_control['hsa_miRNA']} target\nin both preserved rerun resources.",
         transform=ax4.transAxes,
         ha="left",
         va="top",
@@ -691,7 +693,11 @@ def figure3() -> None:
     ax4.text(
         0.0,
         0.20,
-        "TargetScan percentile 96   |   TargetScan score -0.455   |   miRDB score 92.61",
+        (
+            f"TargetScan percentile {int(mtor_control['TargetScan_context_percentile'])}   |   "
+            f"TargetScan score {float(mtor_control['TargetScan_weighted_context_score']):.3f}   |   "
+            f"miRDB score {float(mtor_control['miRDB_score']):.2f}"
+        ),
         transform=ax4.transAxes,
         ha="left",
         va="bottom",
@@ -887,7 +893,7 @@ def figure5() -> None:
     ax1.set_yticklabels(plot_df["short_label"], fontsize=6)
     ax1.set_xlim(0, 1.0)
     ax1.set_xlabel("Total concordance fraction")
-    ax1.set_title("External transport defines boundary conditions", loc="left", fontsize=8.6)
+    ax1.set_title("External projection defines context limits", loc="left", fontsize=8.6)
     ax1.text(
         0.98,
         0.03,
@@ -920,7 +926,7 @@ def figure5() -> None:
     ax2.set_xticklabels([clean_context(v) for v in cdf["context"]], rotation=32, ha="right")
     ax2.set_ylabel("Mean directional concordance")
     ax2.tick_params(axis="x", labelsize=6.3)
-    ax2.set_title("Arm transport across external contexts", loc="left", fontsize=8.6)
+    ax2.set_title("Arm projection across external contexts", loc="left", fontsize=8.6)
     ax2.legend(frameon=False, fontsize=6, loc="upper right")
     finish_axis(ax2)
 
@@ -960,7 +966,7 @@ def figure5() -> None:
         0.16,
         "Canonical seed-based miRNA targeting\n"
         "does not explain the full state.\n"
-        "External datasets define transport boundaries\n"
+        "External datasets define context limits\n"
         "rather than uniform confirmation.",
         ha="center",
         va="center",
@@ -1082,7 +1088,7 @@ def supplement_s2() -> None:
 
 def supplement_s3() -> None:
     val187 = read_csv("results/validation/gse187403_gene_level_validation.csv")
-    val143 = read_csv("results/validation/gse143170_gene_level_sensitivity.csv")
+    val143 = read_csv("results/tables/gse143170_paired_deseq2_gene_level.csv")
 
     fig = plt.figure(figsize=(7.2, 6.0), constrained_layout=True)
     gs = fig.add_gridspec(2, 2)
@@ -1187,7 +1193,7 @@ def supplement_s5() -> None:
     tol_mat = tol_overlap[["in_frozen_signature"]].astype(int).to_numpy()
     im = ax1.imshow(tol_mat, aspect="auto", cmap="Greys", vmin=0, vmax=1)
     ax1.set_xticks([0])
-    ax1.set_xticklabels(["Present in\nfrozen signature"])
+    ax1.set_xticklabels(["Present in\nfixed signature"])
     ax1.set_yticks(range(len(tol_overlap)))
     ax1.set_yticklabels(tol_overlap["gene"], fontsize=6)
     ax1.set_xlim(-0.5, 1.55)

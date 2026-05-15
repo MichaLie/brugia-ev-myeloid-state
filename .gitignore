@@ -10,6 +10,16 @@ __pycache__/
 .venv/
 venv/
 
+# Local manuscript/submission/package artifacts
+*.docx
+*.rtf
+*.pptx
+*.xlsx
+*.zip
+*.tar.gz
+submission_files/
+local_submission/
+
 # Generated panel exports can be rebuilt from final figure scripts
 results/figures/panels/main/*
 results/figures/panels/supplementary/*

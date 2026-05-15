@@ -1,0 +1,2 @@
+Gene,Role,hsa_miRNA,Targeted_by_TargetScan_rerun,TargetScan_context_percentile,TargetScan_weighted_context_score,Targeted_by_miRDB_rerun,miRDB_score,Targeted_by_any_rerun,Source_note
+MTOR,positive_control,hsa-miR-100-5p,True,96,-0.455,True,92.61,True,Internal consistency check for the preserved miR-100-family target-query resources.

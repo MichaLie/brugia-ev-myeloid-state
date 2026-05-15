@@ -226,11 +226,11 @@ def main() -> None:
     paired = pd.read_csv(LEGACY_OUT_DIR / "gse143170_paired_score_tests.csv")
 
     merged.sort_values(["direction", "module_group", "gene"]).to_csv(
-        OUT_DIR / "gse143170_deseq2_gene_level.csv",
+        OUT_DIR / "gse143170_paired_deseq2_gene_level.csv",
         index=False,
     )
-    summary.to_csv(OUT_DIR / "gse143170_deseq2_concordance_summary.csv", index=False)
-    crosscheck.to_csv(OUT_DIR / "gse143170_deseq2_crosscheck.csv", index=False)
+    summary.to_csv(OUT_DIR / "gse143170_paired_deseq2_concordance_summary.csv", index=False)
+    crosscheck.to_csv(OUT_DIR / "gse143170_paired_deseq2_crosscheck.csv", index=False)
 
     tems_full = summary[(summary["contrast"].eq("tems_vs_ph73")) & (summary["group"].eq("full_signature"))].iloc[0]
     tems_modb = summary[(summary["contrast"].eq("tems_vs_ph73")) & (summary["group"].eq("module_b"))].iloc[0]
@@ -241,7 +241,7 @@ def main() -> None:
     cross = crosscheck[crosscheck["contrast"].eq("tems_vs_ph73")].iloc[0]
 
     lines = [
-        "# GSE143170 Paired DESeq2 Validation Summary",
+        "# GSE143170 Paired DESeq2 Perturbation Summary",
         "",
         "## Design",
         "- Dataset: GSE143170",
@@ -252,7 +252,7 @@ def main() -> None:
         "## Key findings",
         (
             f"- `Tems vs pH73` reproduced {int(tems_full['n_concordant'])}/{int(tems_full['n_available'])} "
-            f"signature genes in the EV-consistent direction ({tems_full['concordance_fraction']:.3f}; "
+            f"evaluable signature genes in the EV-consistent direction ({tems_full['concordance_fraction']:.3f}; "
             f"one-sided binomial p = {tems_full['binom_p_greater']:.4g})."
         ),
         (
@@ -266,7 +266,7 @@ def main() -> None:
             f"({ph65_modb['concordance_fraction']:.3f}; p = {ph65_modb['binom_p_greater']:.4g})."
         ),
         (
-            f"- Existing author-owned score tests remain directionally aligned with the DESeq2 rerun: "
+            f"- Existing repository-local score tests remain directionally aligned with the DESeq2 rerun: "
             f"core EV-like score delta = {tems_core['mean_delta']:.3f} (sign-flip p = {tems_core['signflip_p']:.5f}); "
             f"Module B score delta = {tems_modb_score['mean_delta']:.3f} "
             f"(p = {tems_modb_score['signflip_p']:.5f})."
@@ -277,8 +277,8 @@ def main() -> None:
         ),
         "",
         "## Interpretation",
-        "- This rerun supports treating the temsirolimus result as a stable orthogonal validation result rather than only a sensitivity note.",
-        "- The correct manuscript-level claim remains context dependence: temsirolimus during moDC differentiation reproduces Module B, whereas acidic pH does not.",
+        "- This rerun supports treating the temsirolimus result as a stable orthogonal perturbation result rather than only a sensitivity note.",
+        "- The analysis-level interpretation remains context dependence: temsirolimus during moDC differentiation reproduces Module B, whereas acidic pH does not.",
         (
             f"- Negative-control score behavior remained non-supportive for `pH65 vs pH73` "
             f"(Module B score delta = {ph65_modb_score['mean_delta']:.3f}; "
@@ -286,7 +286,7 @@ def main() -> None:
         ),
     ]
 
-    (OUT_DIR / "gse143170_deseq2_summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    (OUT_DIR / "gse143170_paired_deseq2_summary.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

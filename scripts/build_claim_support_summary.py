@@ -102,7 +102,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse187403_lps_module_a_vs_b",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE187403",
             "summary": (
                 f"LPS vs media: Module A {format_fraction(int(lps_a['n_concordant']), int(lps_a['n_available']))} "
@@ -118,7 +118,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse187403_mtori_module_b_binomial",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE187403",
             "summary": (
                 f"AZD2014+LPS vs LPS: Module B {format_fraction(int(azd_b['n_concordant']), int(azd_b['n_available']))}"
@@ -136,7 +136,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse187403_mtori_module_b_score_shift",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE187403",
             "summary": f"Module B EV-like score delta = {azd_modb_score['mean_delta']:.3f}",
             "odds_ratio": math.nan,
@@ -149,7 +149,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse143170_tems_module_b_binomial",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE143170",
             "summary": f"Temsirolimus vs pH7.3: Module B {format_fraction(int(tems_b['n_concordant']), int(tems_b['n_available']))}",
             "odds_ratio": math.nan,
@@ -162,7 +162,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse143170_ph65_module_b_binomial",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE143170",
             "summary": f"Acidic pH vs pH7.3: Module B {format_fraction(int(ph65_b['n_concordant']), int(ph65_b['n_available']))}",
             "odds_ratio": math.nan,
@@ -178,7 +178,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "gse143170_tems_module_b_score_shift",
-            "claim_area": "orthogonal_validation",
+            "claim_area": "orthogonal_perturbation",
             "dataset": "GSE143170",
             "summary": f"Module B EV-like score delta = {tems_modb_score['mean_delta']:.3f}",
             "odds_ratio": math.nan,
@@ -192,7 +192,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "external_no_uniform_support",
-            "claim_area": "external_transport",
+            "claim_area": "external_projection",
             "dataset": "external_multi_cohort",
             "summary": f"Supportive external contrasts: {total_supportive}/{total_contrasts}",
             "odds_ratio": math.nan,
@@ -207,7 +207,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "external_gse360_best_directional",
-            "claim_area": "external_transport",
+            "claim_area": "external_projection",
             "dataset": "GSE360",
             "summary": (
                 f"{best_gse360['contrast']}: {int(best_gse360['total_concordant_genes'])}/"
@@ -223,7 +223,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "external_gse250463_best_directional",
-            "claim_area": "external_transport",
+            "claim_area": "external_projection",
             "dataset": "GSE250463",
             "summary": (
                 f"{best_gse250463['contrast']}: {int(best_gse250463['total_concordant_genes'])}/"
@@ -239,7 +239,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "external_gse42694_boundary",
-            "claim_area": "external_transport",
+            "claim_area": "external_projection",
             "dataset": "GSE42694",
             "summary": (
                 f"{gse42694['contrast']}: {int(gse42694['total_concordant_genes'])}/"
@@ -256,7 +256,7 @@ def main() -> None:
     rows.append(
         {
             "claim_code": "external_context_structure",
-            "claim_area": "external_transport",
+            "claim_area": "external_projection",
             "dataset": "external_multi_cohort",
             "summary": (
                 f"Direct exposure down-up gap = {direct_ctx['mean_arm_gap_down_minus_up']:.3f}; "
